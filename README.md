@@ -16,7 +16,7 @@ This project is a part of **Healthy Lifestyle Hackathon** by **Summer Analytics 
 
 ## Procedure
 + Nature of numerical and categorical features was identified, and then suitable techniques like **modal imputation** for filling **NaN** values for categorical features was employed.
-+ **Box-plots** showed the **presence of outliers** in **numerical columns**, but further analysis showed that the outliers did affect the **statistics** of the numerical features much, so they weren't dropped.
++ **Box-plots** showed the **presence of outliers** in **numerical columns**, but further analysis showed that the outliers did'nt affect the **statistics** of the numerical features much, so they weren't dropped.
 + **Data visualization** was done using **histograms**, **countplots** and **correlation heatmap**. **Correlation heatmap** explained some correlation between some features. (ensemble methods like random forest are robust to correlations as In each split of a decision tree, only a subset of features is considered, reducing the impact of correlation)
 + As the dataset was **imbalanced**, both **undersampling** and **oversampling** was done, to assess model selection and performance.
 + Various models were chosen like Logistic regression, SVMs, Decision Trees and Random Forest. Out all these, **Random Forest** performed the best with data that was **oversampled** (scaling sometimes helped and sometimes not), achieving a **f1 score** of **0.799 to 0.803**.
